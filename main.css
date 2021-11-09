@@ -35,7 +35,7 @@ ul.contact{
     display:grid;
     align-items: center;
     justify-items: center;
-    height: 1500px;
+    height: 2000px;
 }
 .h-top{
     column-gap: 750px;
