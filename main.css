@@ -20,7 +20,7 @@ ul.mess{
     display: grid;
 }
 ul.community{
-    flex-direction: column;
+    display:grid;
     row-gap: 2px;
 }
 ul.contact{
@@ -94,8 +94,8 @@ div.text{
     width: 500px;
 }
 .illustration{
-    height: 750px;
-    width: 950px;
+    height: 650px;
+    width: 750px;
 }
 
 /*Footer*/
@@ -124,7 +124,7 @@ input{
 
 /*text*/
 h1{
-    font-size:40px;
+    font-size:45px;
     font-weight: 700px;
     font-family: 'Poppins', sans-serif;
     line-height: 0.8;
