@@ -35,7 +35,7 @@ ul.contact{
     display:grid;
     align-items: center;
     justify-items: center;
-    height: 2000px;
+    height: 1500px;
 }
 .h-top{
     column-gap: 750px;
@@ -54,13 +54,13 @@ button{
     height: 50px;
     width: 300px;
     font-size: 20px;
-    background-color:hsl(322, 100%, 66%);
+    background-color:hsl(322, 100%, 78%);
     box-shadow: grey;
     border-color:hsl(322, 100%, 66%);
     
 }
 button::hover{
-     background-color:hsl(321, 100%, 78%);
+     background-color:hsl(321, 100%, 66%);
     box-shadow: grey;
     border-color:hsl(321, 100%, 78%);
 }
