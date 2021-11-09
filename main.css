@@ -1,0 +1,153 @@
+/*general*/
+body{
+    padding:0;
+    margin: 0;
+}
+
+/*list*/
+ul{
+    display: flex;
+    list-style: none;
+    
+}
+ul.num{
+    display:flex;
+    align-items: center;
+    justify-items: center;
+}
+ul.mess{
+    row-gap: 2px;
+    display: grid;
+}
+ul.community{
+    flex-direction: column;
+    row-gap: 2px;
+}
+ul.contact{
+        display: grid;
+}
+.phone{
+    display: flex;
+}
+
+/*top*/
+.header{
+    display:grid;
+    align-items: center;
+    justify-items: center;
+    height: 2000px;
+}
+.h-top{
+    column-gap: 750px;
+}
+.h-bottom{
+    align-self: center;
+    justify-self: center;
+}
+.num{
+    column-gap: 200px;
+}
+
+/*button*/
+button{
+    border-radius: 25px;
+    height: 50px;
+    width: 300px;
+    font-size: 20px;
+    background-color:hsl(322, 100%, 66%);
+    box-shadow: grey;
+    border-color:hsl(322, 100%, 66%);
+    
+}
+button::hover{
+     background-color:hsl(321, 100%, 78%);
+    box-shadow: grey;
+    border-color:hsl(321, 100%, 78%);
+}
+button.first{
+    background-color: white;
+}
+button.first::hover{
+    background-color:hsl(321, 100%, 78%);;
+}
+
+/*about*/
+.groups{
+    display:grid;
+
+    justify-items: center;
+}
+
+div.grow-community{
+    background-color:hsl(207, 100%, 98%) ;
+    display: flex;
+}
+div.flowing{
+    display: flex;
+}
+div.users{
+    background-color:hsl(207, 100%, 98%) ;
+    display:flex;
+}
+div.text{
+    align-self: center;
+    width: 500px;
+}
+.illustration{
+    height: 750px;
+    width: 950px;
+}
+
+/*Footer*/
+.huddle-info{
+    display: grid;
+    
+}
+.info{
+    text-align: center;
+    align-self: center;
+    justify-self: center;
+    height:450px;
+}
+div.cont{
+    background-color: hsl(192, 100%, 9%);
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    height: 450px;
+}
+input{
+    height: 50px;
+    width:250px;
+}
+
+
+/*text*/
+h1{
+    font-size:40px;
+    font-weight: 700px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 0.8;
+    text-align: center;
+}
+h2{
+    font-size:35px ;
+    font-weight: 70px;
+    font-family: 'Poppins', sans-serif;
+
+}
+h3{
+    font-size:30px ;
+    font-weight: 700px;
+    font-family: 'Poppins', sans-serif;
+}
+h3.nums{
+    font-size: 40px;
+}
+p{
+    display: block;
+    font-size: 20px;
+    font-weight: 600px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.2;
+}
